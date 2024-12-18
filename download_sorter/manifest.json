@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Download Sorter",
+  "version": "1.0",
+  "description": "Automatically organize downloads into folders based on file type.",
+  "author": "Kavinda Wickramasinghe",  
+  "permissions": [
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
